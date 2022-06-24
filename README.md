@@ -9,17 +9,18 @@
 #### :one: Installation instructions
 The installation process is the next:
   1. Clone this repository
+   
+    git clone <url-repo>
+
   2. Execute in the terminal
    
-   `conda env create -n etl -f requirements.txt`
+    conda env create -n etl -f environment.yml
 
-
+----
 #### :file_folder: **Folder structure**
 ```
 └── ETL_ih
     ├── .gitignore
-    ├── requirements.txt
-    ├── README.md
     ├── data
         ├── attacks.csv
         ├── 
@@ -28,10 +29,16 @@ The installation process is the next:
         ├── attacks.csv
         ├── 
         ├──     
+    ├── img
+        ├── attacks.csv
+        ├── 
+        ├──    
     ├── sql
         ├── attacks.csv
         ├── 
-        ├──     
+        ├──  
+    ├── environment.yml
+    ├── README.md   
 ```
 
 
