@@ -15,4 +15,5 @@ dependencies:
   - requests
   - nb_conda_kernels
   - webdriver-manager
+  - selenium
 
