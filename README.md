@@ -1,5 +1,6 @@
 # ETL 
-
+### :page_facing_up: **Objective**
+Develop an ETL (Extract, Load, Transform) of data related with national spanish elections from 2019. These data is enriched with unemployment rates by province and rent per capita.
 
 ### :nut_and_bolt: **Deployment**
 #### :key: Prerequisites
@@ -22,19 +23,19 @@ The installation process is the next:
 └── ETL_ih
     ├── .gitignore
     ├── data
-        ├── attacks.csv
+        ├── 
         ├── 
         ├──      
     ├── nb
-        ├── attacks.csv
+        ├── data_extraction.ipynb
         ├── 
         ├──     
     ├── img
-        ├── attacks.csv
+        ├── 
         ├── 
         ├──    
     ├── sql
-        ├── attacks.csv
+        ├──
         ├── 
         ├──  
     ├── environment.yml
@@ -47,7 +48,12 @@ The installation process is the next:
 
 ------
 ### :boom: **Analysis developed**
-   
+*1*. *Data extraction*
+- WebScraping
+    - Agencia Tributaria - Rent per capita by province
+    - Unemployment rate in 2019 ([datos.gob.es](https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2019_csv.csv))
+- CSV download
+    - Election result data ([infoelectoral](https://infoelectoral.interior.gob.es/opencms/es/elecciones-celebradas/area-de-descargas/))
 
 ----
 ### :pushpin: **Some insights**
