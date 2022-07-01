@@ -21,7 +21,7 @@ The installation process is the next:
 ----
 #### :file_folder: **Folder structure**
 ```
-└── Elections
+└── Elections2019
     ├── .gitignore
     ├── data
         ├── 
