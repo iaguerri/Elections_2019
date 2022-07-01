@@ -1,10 +1,12 @@
-name: etl
+name: elec
 channels:
   - defaults
   - conda-forge
 dependencies:
   - python==3.9
-  - pip 
+  - pip
+  - pip:
+    - powerbiclient
   - numpy
   - pandas
   - bs4
@@ -17,4 +19,3 @@ dependencies:
   - webdriver-manager
   - selenium
   - PyAutoGUI
-

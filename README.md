@@ -1,6 +1,7 @@
-# ETL 
+# Elections 2019 :es:
 ### :page_facing_up: **Objective**
-Develop an ETL (Extract, Load, Transform) of data related with national spanish elections from 2019. These data is enriched with unemployment rates by province and rent per capita.
+Explorar mediante los datos de las elecciones de 2019 y de renta media y paro la estructura social votante de españa.
+
 
 ### :nut_and_bolt: **Deployment**
 #### :key: Prerequisites
@@ -15,12 +16,12 @@ The installation process is the next:
 
   2. Execute in the terminal
    
-    conda env create -n etl -f environment.yml
+    conda env create -n elec -f environment.yml
 
 ----
 #### :file_folder: **Folder structure**
 ```
-└── ETL_ih
+└── Elections
     ├── .gitignore
     ├── data
         ├── 
@@ -45,6 +46,11 @@ The installation process is the next:
 
 
 ### :computer: **Technology stack**
+------
+- Jupyter Notebook
+- MySQL
+- PowerBI
+
 
 ------
 ### :boom: **Analysis developed**
