@@ -24,12 +24,12 @@ The installation process is the next:
 └── Elections2019
     ├── .gitignore
     ├── data
-        ├── 
-        ├── 
+        ├── ccaa_renta.csv
+        ├── provincias_renta.csv
         ├──      
     ├── nb
-        ├── data_extraction.ipynb
-        ├── 
+        ├── data_extraction_income_tax.ipynb
+        ├── data_extraction_unemployment.ipynb
         ├──     
     ├── img
         ├── 
