@@ -26,11 +26,13 @@ The installation process is the next:
     ├── data
         ├── ccaa_renta.csv
         ├── provincias_renta.csv
-        ├──      
+        ├── resultados_elecciones_2019.csv
+        ├── Paro_por_municipios_2019_csv.csv
+        ├── Partidospoliticos_ccaa.csv    
     ├── nb
         ├── data_extraction_income_tax.ipynb
         ├── data_extraction_unemployment.ipynb
-        ├──     
+        ├── data_prep_manually_downloaded.ipynb 
     ├── img
         ├── 
         ├── 
@@ -56,10 +58,13 @@ The installation process is the next:
 ### :boom: **Analysis developed**
 *1*. *Data extraction*
 - WebScraping
-    - Agencia Tributaria - Rent per capita by province
+    - Agencia Tributaria - Rent per capita by province 
+    - Instituto Vasco de Estadística ([eustat]) (https://es.eustat.eus/)
+    - Instituto de Estadística de Navarra ([navstat]) (https://nastat.navarra.es/)
     - Unemployment rate in 2019 ([datos.gob.es](https://sede.sepe.gob.es/es/portaltrabaja/resources/sede/datos_abiertos/datos/Paro_por_municipios_2019_csv.csv))
 - CSV download
     - Election result data ([infoelectoral](https://infoelectoral.interior.gob.es/opencms/es/elecciones-celebradas/area-de-descargas/))
+    - 
 
 ----
 ### :pushpin: **Some insights**
@@ -77,3 +82,4 @@ The installation process is the next:
 
 
 ### :shit: **ToDo**
+Explicar que tipos
