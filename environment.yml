@@ -18,4 +18,5 @@ dependencies:
   - nb_conda_kernels
   - webdriver-manager
   - selenium
-  - PyAutoGUI
+  - sqlalchemy
+  - pymysql
